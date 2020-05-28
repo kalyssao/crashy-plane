@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD01E47D247F12D7005982EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01E47C247F12D7005982EE /* AppDelegate.swift */; };
+		CD01E47F247F12D7005982EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD01E47E247F12D7005982EE /* GameScene.sks */; };
+		CD01E483247F12D7005982EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01E482247F12D7005982EE /* GameScene.swift */; };
+		CD01E485247F12D7005982EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01E484247F12D7005982EE /* GameViewController.swift */; };
+		CD01E488247F12D7005982EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD01E486247F12D7005982EE /* Main.storyboard */; };
+		CD01E48A247F12D9005982EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD01E489247F12D9005982EE /* Assets.xcassets */; };
+		CD01E48D247F12D9005982EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD01E48B247F12D9005982EE /* LaunchScreen.storyboard */; };
+		CD01E49A247F1614005982EE /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD01E495247F1614005982EE /* PlayerExplosion.sks */; };
+		CD01E49B247F1614005982EE /* music.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD01E496247F1614005982EE /* music.mp4 */; };
+		CD01E49C247F1614005982EE /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD01E497247F1614005982EE /* coin.wav */; };
+		CD01E49D247F1614005982EE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CD01E498247F1614005982EE /* spark.png */; };
+		CD01E49E247F1614005982EE /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD01E499247F1614005982EE /* explosion.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD01E479247F12D7005982EE /* May The Fourth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "May The Fourth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD01E47C247F12D7005982EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD01E47E247F12D7005982EE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CD01E482247F12D7005982EE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CD01E484247F12D7005982EE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CD01E487247F12D7005982EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD01E489247F12D9005982EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD01E48C247F12D9005982EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD01E48E247F12D9005982EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD01E495247F1614005982EE /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		CD01E496247F1614005982EE /* music.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.mp4; sourceTree = "<group>"; };
+		CD01E497247F1614005982EE /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		CD01E498247F1614005982EE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CD01E499247F1614005982EE /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD01E476247F12D7005982EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD01E470247F12D7005982EE = {
+			isa = PBXGroup;
+			children = (
+				CD01E47B247F12D7005982EE /* May The Fourth */,
+				CD01E47A247F12D7005982EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD01E47A247F12D7005982EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD01E479247F12D7005982EE /* May The Fourth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD01E47B247F12D7005982EE /* May The Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				CD01E494247F15DF005982EE /* Content */,
+				CD01E47C247F12D7005982EE /* AppDelegate.swift */,
+				CD01E47E247F12D7005982EE /* GameScene.sks */,
+				CD01E482247F12D7005982EE /* GameScene.swift */,
+				CD01E484247F12D7005982EE /* GameViewController.swift */,
+				CD01E486247F12D7005982EE /* Main.storyboard */,
+				CD01E489247F12D9005982EE /* Assets.xcassets */,
+				CD01E48B247F12D9005982EE /* LaunchScreen.storyboard */,
+				CD01E48E247F12D9005982EE /* Info.plist */,
+			);
+			path = "May The Fourth";
+			sourceTree = "<group>";
+		};
+		CD01E494247F15DF005982EE /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD01E497247F1614005982EE /* coin.wav */,
+				CD01E499247F1614005982EE /* explosion.wav */,
+				CD01E496247F1614005982EE /* music.mp4 */,
+				CD01E495247F1614005982EE /* PlayerExplosion.sks */,
+				CD01E498247F1614005982EE /* spark.png */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD01E478247F12D7005982EE /* May The Fourth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD01E491247F12D9005982EE /* Build configuration list for PBXNativeTarget "May The Fourth" */;
+			buildPhases = (
+				CD01E475247F12D7005982EE /* Sources */,
+				CD01E476247F12D7005982EE /* Frameworks */,
+				CD01E477247F12D7005982EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "May The Fourth";
+			productName = "May The Fourth";
+			productReference = CD01E479247F12D7005982EE /* May The Fourth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD01E471247F12D7005982EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = LVZ;
+				TargetAttributes = {
+					CD01E478247F12D7005982EE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CD01E474247F12D7005982EE /* Build configuration list for PBXProject "May The Fourth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD01E470247F12D7005982EE;
+			productRefGroup = CD01E47A247F12D7005982EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD01E478247F12D7005982EE /* May The Fourth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD01E477247F12D7005982EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD01E49E247F1614005982EE /* explosion.wav in Resources */,
+				CD01E488247F12D7005982EE /* Main.storyboard in Resources */,
+				CD01E49C247F1614005982EE /* coin.wav in Resources */,
+				CD01E47F247F12D7005982EE /* GameScene.sks in Resources */,
+				CD01E48A247F12D9005982EE /* Assets.xcassets in Resources */,
+				CD01E49A247F1614005982EE /* PlayerExplosion.sks in Resources */,
+				CD01E49D247F1614005982EE /* spark.png in Resources */,
+				CD01E48D247F12D9005982EE /* LaunchScreen.storyboard in Resources */,
+				CD01E49B247F1614005982EE /* music.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD01E475247F12D7005982EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD01E483247F12D7005982EE /* GameScene.swift in Sources */,
+				CD01E485247F12D7005982EE /* GameViewController.swift in Sources */,
+				CD01E47D247F12D7005982EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD01E486247F12D7005982EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD01E487247F12D7005982EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD01E48B247F12D9005982EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD01E48C247F12D9005982EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD01E48F247F12D9005982EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD01E490247F12D9005982EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD01E492247F12D9005982EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "May The Fourth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebythelyss.May-The-Fourth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD01E493247F12D9005982EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "May The Fourth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebythelyss.May-The-Fourth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD01E474247F12D7005982EE /* Build configuration list for PBXProject "May The Fourth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD01E48F247F12D9005982EE /* Debug */,
+				CD01E490247F12D9005982EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD01E491247F12D9005982EE /* Build configuration list for PBXNativeTarget "May The Fourth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD01E492247F12D9005982EE /* Debug */,
+				CD01E493247F12D9005982EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD01E471247F12D7005982EE /* Project object */;
+}

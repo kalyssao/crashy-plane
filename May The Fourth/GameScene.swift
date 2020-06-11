@@ -38,17 +38,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     override func didMove(to view: SKView) {
         //rockPhysics = SKPhysicsBody(texture: rockTexture, size: rockTexture.size())
         
-        createLogos()
+        
         createPlayer()
         createSky()
         createBackground()
         createGround()
         createScore()
+        createLogos()
         
         physicsWorld.gravity = CGVector(dx: 0.0, dy: -5.0)
         physicsWorld.contactDelegate = self
     
-        if let musicURL = Bundle.main.url(forResource: "music", withExtension: "m4a") {
+        if let musicURL = Bundle.main.url(forResource: "music", withExtension: "mp4") {
             backgroundMusic = SKAudioNode(url: musicURL)
             addChild(backgroundMusic)
         }
@@ -95,7 +96,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func didBegin(_ contact: SKPhysicsContact) {
-        if contact.bodyA.node?.name == "scoreDetected" || contact.bodyB.node?.name == "scoreDetected" {
+        if contact.bodyA.node?.name == "scoreDetect" || contact.bodyB.node?.name == "scoreDetect" {
             if contact.bodyA.node == player {
                 contact.bodyB.node?.removeFromParent()
             } else {
@@ -116,17 +117,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         if contact.bodyA.node == player || contact.bodyB.node == player {
             if let explosion = SKEmitterNode(fileNamed: "PlayerExplosion") {
-                print("Samini2")
                 explosion.position = player.position
                 addChild(explosion)
             }
-            print("Samini3")
             let sound = SKAction.playSoundFileNamed("explosion.wav", waitForCompletion: false)
             run(sound)
             
             gameOver.alpha = 1
             gameState = .dead
-            //backgroundMusic.run(SKAction.stop())
+            backgroundMusic.run(SKAction.stop())
             
             player.removeFromParent()
             speed = 0

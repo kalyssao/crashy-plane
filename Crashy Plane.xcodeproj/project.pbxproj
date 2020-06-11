@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD01E479247F12D7005982EE /* May The Fourth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "May The Fourth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD01E479247F12D7005982EE /* Crashy Plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crashy Plane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD01E47C247F12D7005982EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD01E47E247F12D7005982EE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		CD01E482247F12D7005982EE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		CD01E470247F12D7005982EE = {
 			isa = PBXGroup;
 			children = (
-				CD01E47B247F12D7005982EE /* May The Fourth */,
+				CD01E47B247F12D7005982EE /* Crashy Plane */,
 				CD01E47A247F12D7005982EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,12 +60,12 @@
 		CD01E47A247F12D7005982EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD01E479247F12D7005982EE /* May The Fourth.app */,
+				CD01E479247F12D7005982EE /* Crashy Plane.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD01E47B247F12D7005982EE /* May The Fourth */ = {
+		CD01E47B247F12D7005982EE /* Crashy Plane */ = {
 			isa = PBXGroup;
 			children = (
 				CD01E494247F15DF005982EE /* Content */,
@@ -78,7 +78,7 @@
 				CD01E48B247F12D9005982EE /* LaunchScreen.storyboard */,
 				CD01E48E247F12D9005982EE /* Info.plist */,
 			);
-			path = "May The Fourth";
+			path = "Crashy Plane";
 			sourceTree = "<group>";
 		};
 		CD01E494247F15DF005982EE /* Content */ = {
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD01E478247F12D7005982EE /* May The Fourth */ = {
+		CD01E478247F12D7005982EE /* Crashy Plane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD01E491247F12D9005982EE /* Build configuration list for PBXNativeTarget "May The Fourth" */;
+			buildConfigurationList = CD01E491247F12D9005982EE /* Build configuration list for PBXNativeTarget "Crashy Plane" */;
 			buildPhases = (
 				CD01E475247F12D7005982EE /* Sources */,
 				CD01E476247F12D7005982EE /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = "May The Fourth";
+			name = "Crashy Plane";
 			productName = "May The Fourth";
-			productReference = CD01E479247F12D7005982EE /* May The Fourth.app */;
+			productReference = CD01E479247F12D7005982EE /* Crashy Plane.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD01E474247F12D7005982EE /* Build configuration list for PBXProject "May The Fourth" */;
+			buildConfigurationList = CD01E474247F12D7005982EE /* Build configuration list for PBXProject "Crashy Plane" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD01E478247F12D7005982EE /* May The Fourth */,
+				CD01E478247F12D7005982EE /* Crashy Plane */,
 			);
 		};
 /* End PBXProject section */
@@ -317,13 +317,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "May The Fourth/Info.plist";
+				INFOPLIST_FILE = "Crashy Plane/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.madebythelyss.May-The-Fourth";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebythelyss.Crashy-Plane";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,13 +335,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "May The Fourth/Info.plist";
+				INFOPLIST_FILE = "Crashy Plane/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.madebythelyss.May-The-Fourth";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebythelyss.Crashy-Plane";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD01E474247F12D7005982EE /* Build configuration list for PBXProject "May The Fourth" */ = {
+		CD01E474247F12D7005982EE /* Build configuration list for PBXProject "Crashy Plane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD01E48F247F12D9005982EE /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD01E491247F12D9005982EE /* Build configuration list for PBXNativeTarget "May The Fourth" */ = {
+		CD01E491247F12D9005982EE /* Build configuration list for PBXNativeTarget "Crashy Plane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD01E492247F12D9005982EE /* Debug */,
